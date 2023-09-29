@@ -21,7 +21,14 @@ public void star(){
     }
     public static void main (String []args){
     Lab1Q2 print = new Lab1Q2 ();
-    Thread t = new Thread(() -> print)
-    }
+    Thread t = new Thread(()-> print.star());
+    t.start();
+try{
+    Thread.sleep(500);
+}catch (InterruptedException a){
+    Thread.currentThread().interrupt();
+}
+print.stop();
+}
 
 }
