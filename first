@@ -1,0 +1,27 @@
+In this worksheet you will get exposure to working with Gradient
+Descent by hand and also get exposure to it running on a machine.
+You will have two sample problems for which you will calculate the first
+three iterations by hand. After this you will adapt the gradient descent
+code to run these problems to both verify that your calculations are
+correct and understand how the algorithm functions.
+You will also do some experimentation with the algorithm to see
+how it functions.
+NOTE: make sure you have access to a non programmable
+calculator for this.
+1 Gradient Descent Problems: Calculation
+by Hand
+For each of the problems listed below you are required to do the following:
+• Determine the first derivative of the function
+• With the given starting point determine the result of the first three
+iterations of the algorithm. Solve in the same way as the examples in
+the lecture notes.
+The problems:
+1. f(x) = 2x
+3 + 6x
+2 − 20x + 6 with x1 = 5
+2. f(x) = x
+4 − 20x
+2 + 6 with x1 = 2
+You may assume that gamma has a value of 0.001. keep calculations
+to four digits of precision maximum and use rounding where needed, again
+following the examples in the lecture notes. testing
